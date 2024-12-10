@@ -161,7 +161,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-    margin-top: -10vh; /* Remove excessive spacing */
+    margin-top: -10vh; 
 }
 
 .section-container {
@@ -451,4 +451,11 @@ section {
   
   footer p {
     text-align: center;
+  }
+
+  .gotop-icon {
+    cursor: pointer;
+    height: 2rem;
+    transform: rotate(180deg);   
+    float: right;
   }
